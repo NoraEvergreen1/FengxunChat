@@ -1,6 +1,6 @@
 {
   "navigationStyle": "custom",
   "usingComponents": {
-    "start-page-vue": "./component/start-page"
+    "chat-area-vue": "./component/chat-area"
   }
 }

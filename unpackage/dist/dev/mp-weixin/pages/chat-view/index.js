@@ -2,9 +2,9 @@
 const common_vendor = require("../../common/vendor.js");
 const api_componentApi = require("../../api/component-api.js");
 if (!Math) {
-  startPageVue();
+  chatAreaVue();
 }
-const startPageVue = () => "./component/start-page.js";
+const chatAreaVue = () => "./component/chat-area.js";
 const _sfc_main = {
   __name: "index",
   setup(__props) {

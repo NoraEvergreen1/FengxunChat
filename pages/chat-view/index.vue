@@ -9,7 +9,10 @@
 	<view class="ment-view-height"></view>
 	<!-- 创建新对话的内容展示 -->
 	<!-- <startPageVue v-show="selectNavIndexFun.index === 1 && chatbotMessageFun.messages.length <= 0"></startPageVue> -->
-	<startPageVue></startPageVue>
+	<!-- 文生文的对话组件 -->
+	<!-- <chatAreaVue class="chatAreaVue" v-show="selectNavIndexFun.index === 1 && chatbotMessageFun.messages.length > 0"></chatAreaVue> -->
+	<!-- <startPageVue></startPageVue> -->
+	<chatAreaVue></chatAreaVue>
 </template>
 
 <script setup>
@@ -27,6 +30,7 @@
 	} = buttonPosition()
 	// 创建新对话的内容展示
 	import startPageVue from "./component/start-page.vue";
+	import chatAreaVue from "./component/chat-area.vue";
 	const menu = ref(["我的", '对话', 'AI绘画'])
 </script>
 
