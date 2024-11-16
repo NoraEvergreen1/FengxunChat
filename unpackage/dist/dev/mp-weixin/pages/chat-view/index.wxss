@@ -1,0 +1,31 @@
+page {
+  background-color: #F3F3F3;
+}
+.menu-view {
+  background: linear-gradient(#FCE7CC, #F3F3F3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: var(--114d010d);
+}
+.menu-view .button-top {
+  height: var(--8ee6d49a);
+}
+.menu-view .menu-style {
+  display: flex;
+  align-items: center;
+  height: var(--1af7f809);
+  padding-left: 20rpx;
+}
+.menu-view .menu-style text {
+  color: #9d9486;
+  font-weight: bold;
+}
+.menu-view .menu-style text:nth-child(2) {
+  padding: 0 60rpx;
+}
+.ment-view-height {
+  height: var(--114d010d);
+}

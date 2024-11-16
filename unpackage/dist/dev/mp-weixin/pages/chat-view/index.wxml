@@ -1,0 +1,1 @@
+<view class="menu-view" style="{{b}}"><view class="button-top"></view><view class="menu-style"><text wx:for="{{a}}" wx:for-item="item" wx:key="b">{{item.a}}</text></view></view><view class="ment-view-height" style="{{c}}"></view><start-page-vue style="{{d}}" u-i="20668b97-0" bind:__l="__l"></start-page-vue>

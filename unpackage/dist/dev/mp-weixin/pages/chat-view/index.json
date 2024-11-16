@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "start-page-vue": "./component/start-page"
+  }
+}
